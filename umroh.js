@@ -1,0 +1,20 @@
+// let btn = document.getElementById('btn')
+// let about = document.getElementById('about')
+let visionmision = document.getElementById('visionmision')
+let FAQ = document.getElementById('FAQ')
+// window.addEventListener('scroll', function(){
+//     let value = this.window.scrollY;
+// })
+
+
+window.addEventListener('scroll',function(){
+const navbar = document.getElementById('navbar');
+
+if (window.scrollY > 0){
+    navbar.classList.add("scrolled")
+
+}
+else{
+    (navbar.classList.remove("scrolled"))
+}
+});
